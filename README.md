@@ -28,9 +28,10 @@ In this initial release, MiraData includes two scenarios:
 - Gaming: Videos related to gaming experiences.
 - City/Scenic Exploration: Videos capturing urban or scenic views.
 
-MiraData is still in its early stages, and we will release more senarios and improve the quality of the dataset in the near future.
+MiraData is still in its early stages, and we will release more scenarios and improve the quality of the dataset in the near future.
 
-[<img src="https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg" width="600" height="300" />](https://www.youtube.com/embed/)
+
+[![MiraData](https://i.ytimg.com/vi/ltXwbZM24Yw/maxresdefault.jpg)](https://www.youtube.com/watch?v=ltXwbZM24Yw "MiraData")
 
 
 ## Dataset
@@ -60,27 +61,21 @@ Each video in MiraData is accompanied by hierarchical captions. These captions p
 - Style: Covers artistic or visual aspects, such as xxx.
 - Camera Movement: Details any camera pans, zooms, or other movements.
 - Short Caption: A concise summary capturing the essence of the video.
-- Dense Caption: A more elaborate and detailed description that sumarizes the above five types of captions.
+- Dense Caption: A more elaborate and detailed description that summarizes the above five types of captions.
 
 #### Captions with GPT4V
 
 ## Statistic
 
-<p align="center">
-  <img src="assets/statistic_dense.png">
-</p>
 
-<p align="center">
-  <img src="assets/statistic_full.png">
-</p>
+<div style="display:inline-block" align=center>
+     <img src="assets/statistic_dense.png" width="500"/><img src="assets/statistic_full.png" width="500"/>
+</div>
 
-<p align="center">
-  <img src="assets/wordcloud_short.png" height=400px>
-</p>
+<div style="display:inline-block" align=center>
+     <img src="assets/wordcloud_short.png" width="350"/><img src="assets/wordcloud_dense.png" width="350"/>
+</div>
 
-<p align="center">
-  <img src="assets/wordcloud_dense.png" height=400px>
-</p>
 
 ## Demonstration
 
