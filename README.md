@@ -67,6 +67,9 @@ Each video in MiraData is accompanied by hierarchical captions. These captions p
 
 #### Captions with GPT4V
 
+We tested the existing open-source V-LLM methods and GPT-4V and found that GPT-4V's captions show better accuracy and coherence in semantic understanding in terms of temporal sequence. It also provides more accurate descriptions of the main subject and background objects, with fewer object omissions and less hallucination issues. Therefore, we decided to use GPT-4V for video captioning. In order to balance annotation costs and caption accuracy, we uniformly sample 8 frames for each video and arrange them into a 2x4 grid of one large image. Then, we use the caption model of Panda70-M to annotate each video with a one-sentence caption, which serves as a hint for the main content, and input it into our fine-tuned prompt. By feeding the fine-tuned prompt and a 2x4 large image to GPT-4V, we can efficiently and cost-effectively output captions for multiple dimensions in just one round of conversation. The specific prompt content can be found in the prompt.py file, and we welcome everyone to contribute to the caption data. :raised_hands:
+
+
 ## Statistic 📝
 
 
