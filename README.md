@@ -70,9 +70,11 @@ Each video in MiraData is accompanied by hierarchical captions. These captions p
 
 <div style="display:inline-block" align=center>
      <img src="assets/statistic_dense.png" width="500"/><br><em>Total text length statistics of dense captions.</em>
-<img src="assets/statistic_full.png" width="500"/><br><em>Total text length statistics of six types of captions.</em>
 </div>
 
+<div style="display:inline-block" align=center>
+<img src="assets/statistic_full.png" width="500"/><br><em>Total text length statistics of six types of captions.</em>
+</div>
 
 
 <div style="display:inline-block" align=center>
