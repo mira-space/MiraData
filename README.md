@@ -30,6 +30,8 @@ In this initial release, MiraData includes two scenarios:
 
 MiraData is still in its early stages, and we will release more scenarios and improve the quality of the dataset in the near future.
 
+<h3 align='center'>Demo Video</h3>
+
 
 [![MiraData](https://i.ytimg.com/vi/ltXwbZM24Yw/maxresdefault.jpg)](https://www.youtube.com/watch?v=ltXwbZM24Yw "MiraData")
 
@@ -68,21 +70,22 @@ Each video in MiraData is accompanied by hierarchical captions. These captions p
 ## Statistic 📝
 
 
+
 <div style="display:inline-block" align=center>
-     <img src="assets/statistic_dense.png" width="500"/><img src="assets/statistic_full.png" width="500"/><br><em>Total text length statistics of dense captions. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Total text length statistics of six types of captions.</em>
+     <img src="assets/statistic_dense.png" width="500"/>
+    <img src="assets/statistic_full.png" width="500"/>
 </div>
-<!-- <div style="display:inline-block" align=center>
-<img src="assets/statistic_full.png" width="500"/><br><em>Total text length statistics of six types of captions.</em>
-</div> -->
+
+<div style="display:inline-block" align=center>Total text length statistics of dense captions. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Total text length statistics of six types of captions.</div>
 
 
 
 <div style="display:inline-block" align=center>
-     <img src="assets/wordcloud_short.png" width="350"/><br><em>Word cloud of short captions.</em>
+     <img src="assets/wordcloud_short.png" width="350"/>
+    <img src="assets/wordcloud_dense.png" width="350"/>
 </div>
-<div style="display:inline-block" align=center>
-    <img src="assets/wordcloud_dense.png" width="350"/><br><em>Word cloud of dense captions.</em>
-</div>
+
+<div style="display:inline-block" align=center>Word cloud of short captions. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Word cloud of dense captions.</div>
 
 
 ## Demonstration
