@@ -47,7 +47,7 @@ This version of MiraData contains 57,803 video clips with an overall of 1,754 ho
   | Gaming | 31,159 | 893 khrs  |
   | City/Scenic Exploration  | 26,644 | 861 hrs | 
 
-The meta file for this version of MiraData is provided [here]([insert link](https://drive.google.com/file/d/18UGbtUFQSLG-0WT35AFukdGjnwej_1Pn/view?usp=sharing)). Additionally, for a better and quicker understanding of our meta file composition, we randomly sample a set of 100 video clips, which can be accessed [here](assets/miradata_v0_100_samples.csv). The meta file contains the following index information:
+The meta file for this version of MiraData is provided [here](https://drive.google.com/file/d/18UGbtUFQSLG-0WT35AFukdGjnwej_1Pn/view?usp=sharing). Additionally, for a better and quicker understanding of our meta file composition, we randomly sample a set of 100 video clips, which can be accessed [here](assets/miradata_v0_100_samples.csv). The meta file contains the following index information:
 
 - index: video clip index, which is composed of {download_idx}_{video_id}-{clip_id}.
 - video_id: youtube video id
