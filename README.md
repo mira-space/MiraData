@@ -93,7 +93,7 @@ We tested the existing open-source V-LLM methods and GPT-4V, and found that GPT-
 <div style="display:inline-block" align=center>Word cloud of short captions. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Word cloud of dense captions.</div>
 
 
-## Demonstration
+## Demonstration 📺
 
 ### Video-Caption Pairs in MiraData
 
