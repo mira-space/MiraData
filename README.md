@@ -67,14 +67,13 @@ Each video in MiraData is accompanied by structural captions. These captions pro
 - Short Caption: A concise summary capturing the essence of the video, generated using the [Panda-70M](https://github.com/snap-research/Panda-70M/tree/main/captioning) caption model.
 - Dense Caption: A more elaborate and detailed description that summarizes the above five types of captions.
 
-#### Captions with GPT4V
+#### Captions with GPT-4V
 
-We tested the existing open-source V-LLM methods and GPT-4V, and found that GPT-4V's captions show better accuracy and coherence in semantic understanding in terms of temporal sequence. It also provides more accurate descriptions of the main subject and background objects, with fewer object omissions and less hallucination issues. Therefore, we Therefore, we use GPT-4V to generate Dense Captions, Main Object Descriptions, Background Descriptions, Camera Movement Descriptions, and Video Styles. In order to balance annotation costs and caption accuracy, we uniformly sample 8 frames for each video and arrange them into a 2x4 grid of one large image. Then, we use the caption model of [Panda-70M](https://github.com/snap-research/Panda-70M/tree/main/captioning) to annotate each video with a one-sentence caption, which serves as a hint for the main content, and input it into our fine-tuned prompt. By feeding the fine-tuned prompt and a 2x4 large image to GPT-4V, we can efficiently and cost-effectively output captions for multiple dimensions in just one round of conversation. The specific prompt content can be found in the [prompt.py](prompt.py) file, and we welcome everyone to contribute to the more high-quality caption data or buy us a coffee to generate more captions. :raised_hands:
+We tested the existing open-source V-LLM methods and GPT-4V, and found that GPT-4V's captions show better accuracy and coherence in semantic understanding in terms of temporal sequence. It also provides more accurate descriptions of the main subject and background objects, with fewer object omissions and less hallucination issues. Therefore, we use GPT-4V to generate Dense Captions, Main Object Descriptions, Background Descriptions, Camera Movement Descriptions, and Video Styles.
 
+In order to balance annotation costs and caption accuracy, we uniformly sample 8 frames for each video and arrange them into a 2x4 grid of one large image. Then, we use the caption model of [Panda-70M](https://github.com/snap-research/Panda-70M/tree/main/captioning) to annotate each video with a one-sentence caption, which serves as a hint for the main content, and input it into our fine-tuned prompt. By feeding the fine-tuned prompt and a 2x4 large image to GPT-4V, we can efficiently output captions for multiple dimensions in just one round of conversation. The specific prompt content can be found in the [caption_gpt4v.py](caption_gpt4v.py), and we welcome everyone to contribute to the more high-quality caption data or buy us a coffee to generate more captions. :raised_hands:
 
-## Statistic 📋
-
-
+## 📋 Statistic
 
 <div style="display:inline-block" align=center>
      <img src="assets/statistic_dense.png" width="350"/>
@@ -138,15 +137,22 @@ We tested the existing open-source V-LLM methods and GPT-4V, and found that GPT-
 
 <sup>**We will remove the video samples from our dataset / Github / project webpage as long as you need it. Please [contact to us](#Contact-Information) for the request.</sup>
 
-## License of MiraData
+## License Agreement
 
-See [license](https://github.com/snap-research/Panda-70M/blob/main/LICENSE).
-The video samples are collected from a publicly available dataset.
-Users must follow [the related license](https://raw.githubusercontent.com/microsoft/XPretrain/main/hd-vila-100m/LICENSE) to use these video samples.
+Please see [LICENSE](./LICENSE).
+
+- The MiraData dataset is only available for informational purposes only. The copyright remains with the original owners of the video.
+- All videos of the MiraData dataset are obtained from the Internet which are not property of our institutions. Our institution are not responsible for the content nor the meaning of these videos.
+- You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the videos and any portion of derived data. You agree not to further copy, publish or distribute any portion of the MiraData dataset.
 
 ## Citation
 
 If you find this project useful for your research, please cite our paper. :blush:
 
+## Acknowlegement
+
+1. This README file is adpated from [Panda-70M](https://github.com/snap-research/Panda-70M/blob/main/README.md)
 
 ## Contact Information
+
+For any inquiries, please email `mira-x@googlegroups.com`.
