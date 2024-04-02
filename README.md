@@ -14,7 +14,7 @@
 
 Video datasets play a crucial role in video generation such as [sora](https://openai.com/sora).
 However, existing text-video datasets often fall short when it comes to **handling long video sequences** and **capturing shot transitions**.
-To address these limitations, we introduce MiraData, a large-scale video dataset designed specifically for long video generation tasks.
+To address these limitations, we introduce MiraData (Mini-Sora Data), a large-scale video dataset designed specifically for long video generation tasks.
 
 #### **Key Features of MiraData**
 
