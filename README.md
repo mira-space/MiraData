@@ -40,19 +40,41 @@ MiraData is still in its early stages, and we will release more scenarios and im
 
 ### Meta Files
 
+This version of MiraData contains 57,803 video clips with an overall of 1,754 hours, containing two scenarios: gaming and city/scenic exploration. The clip number and video duration is shown as follows:
 
+  | Scenario          | Clip Num | Video Duration |
+  |-----------------|----------|-----------------|
+  | Gaming | 31,159 | 893 khrs  |
+  | City/Scenic Exploration  | 26,644 | 861 hrs | 
 
-  <!-- | Split           | Download | # Source Videos | # Samples | Video Duration | Storage Space|
-  |-----------------|----------|-----------------|-----------|----------------|--------------|
-  | Training (full) | [link](https://drive.google.com/file/d/1DeODUcdJCEfnTjJywM-ObmrlVg-wsvwz/view?usp=sharing) (2.01 GB) | 3,779,763 | 70,723,513 | 167 khrs  | ~36 TB  |
-  | Training (10M)  | [link](https://drive.google.com/file/d/1Lrsb65HTJ2hS7Iuy6iPCmjoc3abbEcAX/view?usp=sharing) (381 MB)  | 3,755,240 | 10,473,922 | 37.0 khrs | ~8.0 TB |
-  | Training (2M)   | [link](https://drive.google.com/file/d/1jWTNGjb-hkKiPHXIbEA5CnFwjhA-Fq_Q/view?usp=sharing) (86.5 MB) | 800,000   | 2,400,000  | 7.56 khrs | ~1.6 TB |
-  | Validation      | [link](https://drive.google.com/file/d/1cTCaC7oJ9ZMPSax6I4ZHvUT-lqxOktrX/view?usp=sharing) (803 KB)  | 2,000     | 6,000      | 18.5 hrs  | ~4.0 GB |
-  | Testing         | [link](https://drive.google.com/file/d/1ee227tHEO-DT8AkX7y2q6-bfAtUL-yMI/view?usp=sharing) (803 KB)  | 2,000     | 6,000      | 18.5 hrs  | ~4.0 GB | -->
+The meta file for this version of MiraData is provided [here]([insert link](https://drive.google.com/file/d/18UGbtUFQSLG-0WT35AFukdGjnwej_1Pn/view?usp=sharing)). Additionally, for a better and quicker understanding of our meta file composition, we randomly sample a set of 100 video clips, which can be accessed [here](assets/miradata_v0_100_samples.csv). The meta file contains the following index information:
+
+- index: video clip index, which is composed of {download_idx}_{video_id}-{clip_id}.
+- video_id: youtube video id
+- start_frame: clip start frame of the youtube video
+- end_frame: clip end frame of the youtube video
+- main_object: caption of the main object in video
+- background_caption: caption of the video background
+- style_caption: caption of the video style
+- camera_caption: caption of the camera movie
+- short_caption: a short overall caption
+- dense_caption: a dense overall caption
+- fps: the video fps used for extracting frame
+
 
 ### How to Download
 
-## Captions 📝
+To download the videos and split the videos into clips, you can use the following scripts:
+
+```
+python download_data.py --meta_csv miradata_v0.csv --video_start_id 0 --video_end_id 10631 --raw_video_save_dir miradata/raw_video --clip_video_save_dir miradata/clip_video
+```
+
+where the `--video_start_id` and `--video_end_id` indicates the start and end values of the `download_idx` in meta file's `index` for downloading. The gaming scenario is ranging from 0 to 7416 and the city/scenic exploration is ranging from 7417 to 10631.
+
+### Collection and Annotation
+
+To collect the MiraData, we first mannually select youtube channels in different scenarios. Then, all the videos in corresponding channels are downloaded and splitted using [PySceneDetect](https://www.scenedetect.com/). After that, we selected video clips with a duration ranging from 1 to 2 minutes. For video clips longer than 2 minutes, we split them into multiple 2-minute clips. Finally, we caption the video clip using GPT-4V.
 
 #### Structural Captions
 
@@ -73,7 +95,7 @@ We tested the existing open-source V-LLM methods and GPT-4V, and found that GPT-
 
 In order to balance annotation costs and caption accuracy, we uniformly sample 8 frames for each video and arrange them into a 2x4 grid of one large image. Then, we use the caption model of [Panda-70M](https://github.com/snap-research/Panda-70M/tree/main/captioning) to annotate each video with a one-sentence caption, which serves as a hint for the main content, and input it into our fine-tuned prompt. By feeding the fine-tuned prompt and a 2x4 large image to GPT-4V, we can efficiently output captions for multiple dimensions in just one round of conversation. The specific prompt content can be found in the [caption_gpt4v.py](caption_gpt4v.py), and we welcome everyone to contribute to the more high-quality text-video data. :raised_hands:
 
-## 📋 Statistic
+## Statistic
 
 <div style="display:inline-block" align=center>
      <img src="assets/statistic_dense.png" width="350"/>
@@ -92,7 +114,7 @@ In order to balance annotation costs and caption accuracy, we uniformly sample 8
 <div style="display:inline-block" align=center>Word cloud of short captions. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Word cloud of dense captions.</div>
 
 
-## Demonstration 📺
+## Demonstration
 
 ### Video-Caption Pairs in MiraData
 
