@@ -60,9 +60,9 @@ Each video in MiraData is accompanied by structural captions. These captions pro
 
 **Six Types of Captions**:
 
-- Main Object Description: Describes the primary object or subject in the video.
-- Background: Provides context about the environment or setting.
-- Style: Covers artistic or visual aspects, such as xxx.
+- Main Object Description: Describes the primary object or subject in the video, including their attributes, actions, positions, and movements throughout the video.
+- Background: Provides context about the environment or setting, including objects, location, weather, and time.
+- Style: Covers artistic style, visual and photographic aspects, such as realistic, cyberpunk, and cinematic style.
 - Camera Movement: Details any camera pans, zooms, or other movements.
 - Short Caption: A concise summary capturing the essence of the video, generated using the [Panda-70M](https://github.com/snap-research/Panda-70M/tree/main/captioning) caption model.
 - Dense Caption: A more elaborate and detailed description that summarizes the above five types of captions.
