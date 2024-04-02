@@ -4,7 +4,7 @@
 
 <div align="center">
 
-## MiraData:  A Large-Scale Video Dataset with Long Video Duration and Hierarchical Captions
+## MiraData:  A Large-Scale Video Dataset with Long Video Duration and Structural Captions
 
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2404.xxxxx-b31b1b.svg)](https://arxiv.org/abs/2404.xxxxx) -->
 [![Project Page](https://img.shields.io/badge/Project-Website-green)](https://mira-space.github.io/)
@@ -19,7 +19,7 @@ To address these limitations, we introduce MiraData, a large-scale video dataset
 #### **Key Features of MiraData**
 
 1. **Long Video Duration**: Unlike previous datasets, where video clips are often very short (typically less than 6 seconds), MiraData focuses on uncut video segments with durations ranging from 1 to 2 minutes. This extended duration allows for more comprehensive modeling of video content.
-2. **Hierarchical Captions**: Each video in MiraData is accompanied by hierarchical captions. These captions provide detailed descriptions from various perspectives, enhancing the richness of the dataset. The average caption length is 349 words, ensuring a thorough representation of the video content.
+2. **Structural Captions**: Each video in MiraData is accompanied by structural captions. These captions provide detailed descriptions from various perspectives, enhancing the richness of the dataset. The average caption length is 349 words, ensuring a thorough representation of the video content.
 
 #### Current Status
 
@@ -54,9 +54,9 @@ MiraData is still in its early stages, and we will release more scenarios and im
 
 ## Captions
 
-#### Hierarchical Captions
+#### Structural Captions
 
-Each video in MiraData is accompanied by hierarchical captions. These captions provide detailed descriptions from various perspectives, enhancing the richness of the dataset.
+Each video in MiraData is accompanied by structural captions. These captions provide detailed descriptions from various perspectives, enhancing the richness of the dataset.
 
 **Six Types of Captions**:
 
