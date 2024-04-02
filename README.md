@@ -52,7 +52,7 @@ MiraData is still in its early stages, and we will release more scenarios and im
 
 ### How to Download
 
-## Captions
+## Captions 📝
 
 #### Structural Captions
 
@@ -72,7 +72,7 @@ Each video in MiraData is accompanied by structural captions. These captions pro
 We tested the existing open-source V-LLM methods and GPT-4V, and found that GPT-4V's captions show better accuracy and coherence in semantic understanding in terms of temporal sequence. It also provides more accurate descriptions of the main subject and background objects, with fewer object omissions and less hallucination issues. Therefore, we Therefore, we use GPT-4V to generate Dense Captions, Main Object Descriptions, Background Descriptions, Camera Movement Descriptions, and Video Styles. In order to balance annotation costs and caption accuracy, we uniformly sample 8 frames for each video and arrange them into a 2x4 grid of one large image. Then, we use the caption model of [Panda-70M](https://github.com/snap-research/Panda-70M/tree/main/captioning) to annotate each video with a one-sentence caption, which serves as a hint for the main content, and input it into our fine-tuned prompt. By feeding the fine-tuned prompt and a 2x4 large image to GPT-4V, we can efficiently and cost-effectively output captions for multiple dimensions in just one round of conversation. The specific prompt content can be found in the [prompt.py](prompt.py) file, and we welcome everyone to contribute to the more high-quality caption data or buy us a coffee to generate more captions. :raised_hands:
 
 
-## Statistic 📝
+## Statistic 📋
 
 
 
