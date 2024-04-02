@@ -33,7 +33,7 @@ MiraData is still in its early stages, and we will release more scenarios and im
 <h3 align='center'>Demo Video</h3>
 
 
-[![MiraData](https://i.ytimg.com/vi/ltXwbZM24Yw/maxresdefault.jpg)](https://www.youtube.com/watch?v=ltXwbZM24Yw "MiraData")
+[![MiraData](https://i.ytimg.com/vi/ltXwbZM24Yw/maxresdefault.jpg)](https://www.youtube.com/watch?v=3G0p7Jo3GYM "MiraData")
 
 
 ## Dataset
