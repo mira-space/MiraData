@@ -55,7 +55,7 @@ The meta file for this version of MiraData is provided [here](https://drive.goog
 - **video_id**: youtube video id
 - **start_frame**: clip start frame of the youtube video
 - **end_frame**: clip end frame of the youtube video
-- **main_object**: caption of the main object in video
+- **main_object_caption**: caption of the main object in video
 - **background_caption**: caption of the video background
 - **style_caption**: caption of the video style
 - **camera_caption**: caption of the camera movie
