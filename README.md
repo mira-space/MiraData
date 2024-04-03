@@ -121,42 +121,97 @@ In order to balance annotation costs and caption accuracy, we uniformly sample 8
 
   <table class="center">
     <tr>
-      <td width=33.3% style="border: none"><img src="./assets/aIPu1xGNbhc.49.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/AIyw1FO1aqs.57.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/Kb8ON0iCs38.97.gif"></td>
+      <td width=10% style="border: none"><p>Video</p></td>
+      <td width=30% style="border: none"><video src="https://github.com/mira-space/MiraData/assets/89566272/b2989b1f-d8d0-42d1-b337-2d1e6b6a0f11"></td>
+      <td width=30% style="border: none"><video src="https://github.com/mira-space/MiraData/assets/89566272/1cb6562b-b99c-4ba6-ab81-215771ea6657"></td>
+      <td width=30% style="border: none"><video src="https://github.com/mira-space/MiraData/assets/89566272/c388f3a4-ced7-4fc2-937b-49b482cb8390"></td>
     </tr>
     <tr style="text-align: center;">
-      <td width=33.3% style="border: none">A man navigating through a series of urban environments in a video game. The character is dressed casually in a light-colored shirt and dark pants. He moves with a sense of urgency, suggesting a stealth or action-oriented gameplay scenario. The environments are detailed and realistic, with textures and lighting that give a sense of depth and immersion. The man interacts with the environment, climbing and jumping over obstacles, which indicates the game likely includes parkour or exploration elements. The presence of dialogue text suggests that there is a narrative component to the game, with other characters communicating with the man, possibly indicating cooperative gameplay or a story-driven mission.</p></td>
-      <td width=33.3% style="border: none">A person is holding a long haired dachshund in their arms.</td>
-      <td width=33.3% style="border: none">A rocket launches into space on the launch pad.</td>
+      <td width=10% style="border: none"><p>Main Object Caption</p></td>
+      <td width=30% style="border: none"><p>A futuristic car, is seen driving through various parts of the neon city. Initially, the car is at a standstill, showcasing its design and lighting, before accelerating into the traffic. The car maneuvers through the streets, dodging other vehicles and obstacles, with a change in perspective to a first-person view showing a hand holding a gun, suggesting a shift to an action sequence or a new gameplay mechanic. The car's movement is fluid and fast, indicating high-speed travel through the city.</p></td>
+      <td width=30% style="border: none"><p>From the player's perspective, initially grapples with an adversary, as evidenced by the close-up of mechanical parts and the player's hands. The focus then shifts to the elderly woman, who is initially aggressive or defensive, holding a shovel raised as if ready to strike. She then turns, leading the player around the side of a wooden structure, possibly her house. Over time, her demeanor softens, and she appears to be talking to the player, as she lowers her shovel and adopts a more relaxed posture.</p></td>
+      <td width=30% style="border: none"><p>A person, is seen walking at a leisurely pace along a path that cuts through the ancient ruins and natural landscape. They appear to be exploring the area, moving from the open spaces between the large arches into a more enclosed tunnel. Their movement is consistent and unhurried, suggesting a relaxed and contemplative stroll through the historic site.</p></td>
+    </tr>
+    <tr style="text-align: center;">
+      <td width=10% style="border: none"><p>Background Caption</p></td>
+      <td width=30% style="border: none"><p>A bustling, rain-slicked metropolis at night, characterized by towering skyscrapers, bright neon signs, and holographic billboards. The weather is rainy, creating reflective surfaces on the roads that mirror the city's vivid lights. The time is night, which is evident from the artificial lighting and dark sky, contributing to the cyberpunk aesthetic of the environment.</p></td>
+      <td width=30% style="border: none"><p>The background depicts a lush rural setting with a wooden house or shed, surrounded by greenery, rocks, and patches of red flowers. The environment has a naturalistic feel, with a clear sky and daylight indicating a daytime setting. There are no other characters or moving elements visible in the background, which suggests a peaceful, albeit isolated, location.</p></td>
+      <td width=30% style="border: none"><p>A picturesque scene of an ancient city in ruins, with large brick arches and remnants of structures that speak to a bygone era. The setting is peaceful and natural, with trees, bushes, and grasses softly swaying in the light breeze. The time appears to be late afternoon or early evening, as indicated by the long shadows and the warm, soft light that bathes the scene, likely the golden hour before sunset.</p></td>
+    </tr>
+    <tr style="text-align: center;">
+      <td width=10% style="border: none"><p>Style Caption</p></td>
+      <td width=30% style="border: none"><p>The visual, photographic, and artistic style is reminiscent of a cyberpunk universe, with a strong emphasis on neon lighting, rain-drenched streets, and a high-contrast color palette that creates a sense of depth and vibrancy.</p></td>
+      <td width=30% style="border: none"><p>The visual style is realistic with detailed character models, natural lighting, and a high level of environmental detail, creating an immersive and believable rural setting in a video game context.</p></td>
+      <td width=30% style="border: none"><p>The video exhibits a cinematic and picturesque quality, utilizing natural lighting and the historical setting to create a visually rich and contemplative narrative.</p></td>
+    </tr>
+    <tr style="text-align: center;">
+      <td width=10% style="border: none"><p>Camera Caption</p></td>
+      <td width=30% style="border: none"><p>The view shot starts with a third-person perspective from behind the car, giving a clear view of the vehicle and its immediate surroundings. The camera then transitions to a first-person perspective, showing the driver's hand with a gun, implying a change in gameplay or narrative. The camera angles vary, capturing the high-speed motion of the car from different viewpoints, including a dynamic, forward-facing angle that conveys the sensation of speeding through the city.</p></td>
+      <td width=30% style="border: none"><p>The camera perspective is consistent with a first-person viewpoint throughout the sequence. The initial frame suggests a dynamic struggle with rapid movement, while the subsequent frames show a steadier camera as the player interacts with the woman. The camera follows the woman as she moves, maintaining her as the focal point, and the shooting angles change as the player's perspective shifts to keep the woman in view, particularly as she moves and turns.</p></td>
+      <td width=30% style="border: none"><p>The camera follows a steady, linear path, maintaining a consistent distance from the main subject. It captures the scene from a series of angles that alternate between showcasing the expansive ruins and focusing on the path ahead. As the person enters the tunnel, the camera angle shifts to frame them against the light at the end of the tunnel, creating a silhouette effect.</p></td>
+    </tr>
+    <tr style="text-align: center;">
+      <td width=10% style="border: none"><p>Short Caption</p></td>
+      <td width=30% style="border: none"><p>The player is driving a futuristic car in a neon-lit city at night.</p></td>
+      <td width=30% style="border: none"><p>A video game character standing in front of a house.</p></td>
+      <td width=30% style="border: none"><p>There is a person walking on a path surrounded by trees and ruins of an ancient city.</p></td>
+    </tr>
+    <tr style="text-align: center;">
+      <td width=10% style="border: none"><p>Dense Caption</p></td>
+      <td width=30% style="border: none"><p>A player navigating a sleek, futuristic car through a neon-lit cityscape at night. The city is alive with vibrant colors, illuminated advertisements, and dynamic lighting that reflects off the wet streets, adding to the sense of speed and movement. The car's design is cutting-edge, with glowing elements and a streamlined shape that suggests advanced technology and high performance. As the player drives, the environment whizzes by, creating a blur of lights and structures that enhances the feeling of racing through this urban playground.</p></td>
+      <td width=30% style="border: none"><p>The video sequence showcases a first-person perspective of a video game character interacting with a non-playable character (NPC) in a rural environment. Initially, the player character appears to be grappling with an enemy or creature, as indicated by the close-up struggle and the presence of sparks or embers. The scene transitions to the player character standing before an elderly woman, who is wielding a shovel in a defensive or threatening posture. The woman's expressions and stance suggest she is wary or confrontational towards the player. As the video progresses, the woman seems to relax slightly, lowering her shovel and engaging in conversation with the player, indicated by her changing facial expressions and body language.</p></td>
+      <td width=30% style="border: none"><p>A serene and historical ambiance as a person walks through a path surrounded by the lush greenery and the majestic ruins of an ancient city. The ruins feature large arches and weathered brick walls, hinting at a grand past. The path is well-trodden and flanked by trees and grass, with the golden hour sunlight casting a warm glow over the scene. Other visitors can be seen in the distance, enjoying the tranquil environment. As the person progresses, they pass through a tunnel-like structure, where the play of light and shadow creates a dramatic effect, enhancing the sense of exploration and discovery.</p></td>
     </tr>
   </table>
 
-  <table class="center">
-    <tr>
-      <td width=33.3% style="border: none"><img src="./assets/AvVDsFBc6bA.0.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/S-1NdEjjg7c.58.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/10Y6wIEuG00.62.gif"></td>
-    </tr>
-    <tr style="text-align: center;">
-      <td width=33.3% style="border: none">A person is kneading dough and putting jam on it.</td>
-      <td width=33.3% style="border: none">A little boy is playing with a basketball in the city.</td>
-      <td width=33.3% style="border: none">A 3d rendering of a zoo with animals and a train.</td>
-    </tr>
-  </table>
+
 
   <table class="center">
     <tr>
-      <td width=33.3% style="border: none"><img src="./assets/_uQs-YDb5VA.9.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/CgcadSRtAag.140.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/1NMpoAqzJfY.25.gif"></td>
+      <td width=10% style="border: none"><p>Video</p></td>
+      <td width=30% style="border: none"><video src="https://github.com/mira-space/MiraData/assets/89566272/aeaf4b11-1fae-4a80-9ff0-ea6d01fdc755"></td>
+      <td width=30% style="border: none"><video src="https://github.com/mira-space/MiraData/assets/89566272/b213cf2a-a04d-4d46-aa23-9dbaf8116ede"></td>
+      <td width=30% style="border: none"><video src="https://github.com/mira-space/MiraData/assets/89566272/2adf3418-093d-48ec-86f6-81c8537596c5"></td>
     </tr>
     <tr style="text-align: center;">
-      <td width=33.3% style="border: none">A person in blue gloves is connecting an electrical supply to an injector.</td>
-      <td width=33.3% style="border: none">There is a beach with waves and rocks in the foreground, and a city skyline in the background.</td>
-      <td width=33.3% style="border: none">It is a rally car driving on a dirt road in the countryside, with people watching from the side of the road.</td>
+      <td width=10% style="border: none"><p>Main Object Caption</p></td>
+      <td width=30% style="border: none"><p>There are no main subjects such as people or animals that are the focus of the video. Instead, the video's main subject is the changing urban landscape itself. The sequence shows a transition from a pedestrian-friendly street with sidewalks to an area with construction barriers and finally to a riverside scene with the bridge as a focal point.</p></td>
+      <td width=30% style="border: none"><p>A cyclist, is seen navigating through the city streets. Starting on a quieter street, the cyclist passes by shops with inviting warm lighting and continues through intersections and alongside parked cars. The rider's movement is fluid and uninterrupted, suggesting a familiarity with the route. The bicycle's lights are on, ensuring visibility as the evening darkens.</p></td>
+      <td width=30% style="border: none"><p>Throughout the video, the main subjects are the pedestrians who are walking at a leisurely pace. They are scattered across the walkway, maintaining a casual flow of movement. Their attire suggests a warm and comfortable climate, and their relaxed demeanor indicates a peaceful setting. The fountain in the early part of the video adds a dynamic element as water sprays rhythmically, while the statue towards the end stands still, providing a contrast to the moving subjects.</p></td>
+    </tr>
+    <tr style="text-align: center;">
+      <td width=10% style="border: none"><p>Background Caption</p></td>
+      <td width=30% style="border: none"><p>A cityscape that includes a mix of architectural styles, from red-brick buildings to industrial metal structures. The weather appears to be clear and sunny, with blue skies and minimal cloud cover. The time seems to be during the day, given the shadows and the brightness of the sunlight.</p></td>
+      <td width=30% style="border: none"><p>A cityscape at twilight, with the sky dimming as the video progresses. The streets are moderately busy with pedestrians and occasional vehicles. The architecture is a mix of residential buildings, small businesses, and modern commercial spaces. Streetlights and building lights provide illumination, and the weather appears clear and calm.</p></td>
+      <td width=30% style="border: none"><p>Features a blend of natural and urban elements. The plaza with the fountain is surrounded by buildings that suggest a downtown area, while the walkway is bordered by lush greenery, indicating well-kept urban parks or gardens. The clear blue sky suggests fair weather, and the bright sunlight indicates daytime, possibly morning or afternoon given the angle of the shadows.</p></td>
+    </tr>
+    <tr style="text-align: center;">
+      <td width=10% style="border: none"><p>Style Caption</p></td>
+      <td width=30% style="border: none"><p>The visual, photographic, and artistic style of the video is realistic with a clear, bright, and high-contrast depiction of an urban environment during a sunny day.</p></td>
+      <td width=30% style="border: none"><p>The visual style of the video is naturalistic and immersive, capturing the tranquil ambiance of a city transitioning from day to night with a steady, first-person perspective.</p></td>
+      <td width=30% style="border: none"><p>The video showcases a wide-angle, high-definition view with vivid colors and a clear focus, capturing the tranquility and beauty of a city's public space in a documentary-style presentation.</p></td>
+    </tr>
+    <tr style="text-align: center;">
+      <td width=10% style="border: none"><p>Camera Caption</p></td>
+      <td width=30% style="border: none"><p>The camera movement is smooth and appears to be a tracking shot moving forward through the city street. The shooting angle is mostly at street level, providing a first-person perspective of the environment. The camera angle shifts slightly upwards as the video progresses, especially as the bridge becomes the central element in the later frames.</p></td>
+      <td width=30% style="border: none"><p>The camera angle is consistent throughout the video, maintaining a first-person perspective that likely mimics the cyclist's point of view. The camera moves smoothly, following the natural motion of cycling, and there are no abrupt changes in direction or speed. This steady camera work allows for an immersive experience as if the viewer is the one riding the bicycle.</p></td>
+      <td width=30% style="border: none"><p>The camera appears to move smoothly along the walkway, maintaining a consistent level and distance from the ground, providing a continuous perspective of the environment. The angle of the shots changes as the camera progresses, starting with a frontal view of the fountain and transitioning to a path leading towards the statue, suggesting a linear path of travel.</p></td>
+    </tr>
+    <tr style="text-align: center;">
+      <td width=10% style="border: none"><p>Short Caption</p></td>
+      <td width=30% style="border: none"><p>A view of a city street with a bridge in the background.</p></td>
+      <td width=30% style="border: none"><p>A person is riding a bicycle on a city street at night, passing by various buildings and cars.</p></td>
+      <td width=30% style="border: none"><p>People are walking on a sidewalk in a city, and there is a fountain in the middle of the street.</p></td>
+    </tr>
+    <tr style="text-align: center;">
+      <td width=10% style="border: none"><p>Dense Caption</p></td>
+      <td width=30% style="border: none"><p>The video presents a panoramic journey through a city street leading towards a bridge. The sequence begins with a view of a well-maintained urban area, featuring red-brick buildings with large windows and street lamps, and transitions towards a more industrial setting with metal structures and a bridge in the background. The progression of the frames suggests a movement from a commercial zone towards a waterfront area, with the bridge becoming increasingly prominent in the view.</p></td>
+      <td width=30% style="border: none"><p>The essence of a city at dusk, with the sky transitioning from the last hints of daylight to the onset of night. A person rides a bicycle along the city streets, weaving through the urban landscape that is a mix of residential and commercial areas. The streets are lined with a variety of buildings, from cozy eateries to modern storefronts, all under the soft glow of streetlights and the occasional bright signage. The cyclist moves at a steady pace, allowing viewers to take in the serene atmosphere of the city in the evening.</p></td>
+      <td width=30% style="border: none"><p>A serene urban scene where people are leisurely walking along a wide sidewalk in a city. The initial frames show a modern plaza with a reflective surface, where water jets from a fountain create a playful and refreshing atmosphere. As the video progresses, the perspective shifts away from the fountain plaza to a tree-lined walkway, with well-maintained grassy areas on either side. Pedestrians of various ages can be seen strolling, some alone and others in groups, indicating a relaxed urban environment. The latter part of the video reveals a statue prominently positioned at the end of the walkway, adding a historical or cultural dimension to the cityscape.</p></td>
     </tr>
   </table>
+
+  
 
 <sup>**We will remove the video samples from our dataset / Github / project webpage as long as you need it. Please [contact to us](#Contact-Information) for the request.</sup>
 
