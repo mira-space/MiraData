@@ -6,7 +6,7 @@
 
 ## MiraData:  A Large-Scale Video Dataset with Long Durations and Structured Captions
 
-> [Xuan Ju](https://github.com/juxuan27)<sup>1*</sup>, [Yiming Gao]()<sup>1*</sup>, [Zhaoyang Zhang](https://zzyfd.github.io/)<sup>1</sup>, [Ziyang Yuan]()<sup>1</sup>,  [Xintao Wang](https://xinntao.github.io/)<sup>1#</sup>,  [Ailing Zeng](), [Yu Xiong](), [Qiang Xu](),  [Ying Shan](https://www.linkedin.com/in/YingShanProfile/)<sup>1</sup>, <br>
+> [Xuan Ju](https://github.com/juxuan27)<sup>1*</sup>, [Yiming Gao](https://scholar.google.com/citations?user=uRCc-McAAAAJ&hl=zh-TW)<sup>1*</sup>, [Zhaoyang Zhang](https://zzyfd.github.io/)<sup>1</sup>, [Ziyang Yuan]()<sup>1</sup>,  [Xintao Wang](https://xinntao.github.io/)<sup>1#</sup>,  [Ailing Zeng](), [Yu Xiong](), [Qiang Xu](),  [Ying Shan](https://www.linkedin.com/in/YingShanProfile/)<sup>1</sup>, <br>
 > <sup>1</sup>ARC Lab, Tencent PCG <sup>*</sup>Equal contribution  <sup>#</sup>Project lead
 
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2404.xxxxx-b31b1b.svg)](https://arxiv.org/abs/2404.xxxxx) -->
