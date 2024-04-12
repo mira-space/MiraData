@@ -17,8 +17,15 @@ parser.add_argument("--raw_video_save_dir", type=str,default="miradata/raw_video
 parser.add_argument("--clip_video_save_dir", type=str,default="miradata/clip_video")
 args = parser.parse_args()
 
-
-df = pd.read_csv(args.meta_csv)
+encodings = ['ISO-8859-1', 'cp1252', 'utf-8']
+# Try using different encoding formats
+for encoding in encodings:
+    try:
+        df = pd.read_csv(args.meta_csv, encoding=encoding)
+        print(f"Successfully loaded the csv file")
+        break
+    except UnicodeDecodeError:
+        print(f"Error: {encoding} decoding failed, trying the next encoding format")
 
 for i, row in tqdm.tqdm(df.iterrows()):
     video_name=row["index"].split("-")[0]
