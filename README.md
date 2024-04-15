@@ -230,6 +230,17 @@ Please see [LICENSE](./LICENSE).
 
 If you find this project useful for your research, please cite our paper. :blush:
 
+## Current Limitations
+- Video Data:
+1. Data Volume and Coverage: Since we manually select videos from certain scenarios to guarantee video quality and motion amplitude, videos are selected from a relatively narrow domain with a small video number. This may result in a limited data volume and coverage, which is insufficient for general-purpose video generation and may lead to overfit.
+2. Inaccurate Video Splitting: The video splitting process utilizing PySceneDetect, which detect video clip based on changes in frame intensity, brightness, or HSV color space. This may introduce certain errors, such as missing or superfluous splitting, particularly in videos with effects like fade-ins or fade-outs.
+3. Shot Transitions: Our current release doesn't have many clips describing multiple camera angles for the same scene. We will incorporate a wider range of clips with diverse shot transitions
+- Caption:
+1. Loss of Detail: The current dataset generates captions based on only 8 frames, which may not fully cover all actions, background details, and content variations within longer video durations. This limitation could potentially lead to missing or insufficient descriptions of certain details. Moreover, combining 8 frames into a single image for captioning, as opposed to frame-by-frame input, might result in the loss of some detailed information. The granularity of the visual data is compromised, which might affect the accuracy of the generated captions.
+2. Hallucination Issues: Despite the advancements, the GPT4-V model still suffers from inevitable hallucination problems. These could manifest as misinterpretations or misrepresentations of the visual data, thereby affecting the quality of the generated captions.
+3. Misleading Hints: In the Panda-70M dataset, there are instances where the provided hints are incorrect. For example, a scene of a person walking might be mistakenly interpreted as a car moving. Such misleading hints could potentially misguide the GPT4-V model and result in inaccurate caption generation.
+
+
 ## Acknowlegement
 
 This README file is adpated from [Panda-70M](https://github.com/snap-research/Panda-70M/blob/main/README.md)
